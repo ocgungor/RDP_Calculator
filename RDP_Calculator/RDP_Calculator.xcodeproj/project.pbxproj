@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5606B0801736BD170068EBA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5606B07F1736BD170068EBA5 /* Foundation.framework */; };
+		5606B0831736BD170068EBA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5606B0821736BD170068EBA5 /* main.m */; };
+		5606B0871736BD170068EBA5 /* RDP_Calculator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5606B0861736BD170068EBA5 /* RDP_Calculator.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5606B07A1736BD170068EBA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5606B0871736BD170068EBA5 /* RDP_Calculator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5606B07C1736BD170068EBA5 /* RDP_Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RDP_Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		5606B07F1736BD170068EBA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5606B0821736BD170068EBA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5606B0851736BD170068EBA5 /* RDP_Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RDP_Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		5606B0861736BD170068EBA5 /* RDP_Calculator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RDP_Calculator.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5606B0791736BD170068EBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5606B0801736BD170068EBA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5606B0731736BD170068EBA5 = {
+			isa = PBXGroup;
+			children = (
+				5606B0811736BD170068EBA5 /* RDP_Calculator */,
+				5606B07E1736BD170068EBA5 /* Frameworks */,
+				5606B07D1736BD170068EBA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5606B07D1736BD170068EBA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5606B07C1736BD170068EBA5 /* RDP_Calculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5606B07E1736BD170068EBA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5606B07F1736BD170068EBA5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5606B0811736BD170068EBA5 /* RDP_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5606B0821736BD170068EBA5 /* main.m */,
+				5606B0861736BD170068EBA5 /* RDP_Calculator.1 */,
+				5606B0841736BD170068EBA5 /* Supporting Files */,
+			);
+			path = RDP_Calculator;
+			sourceTree = "<group>";
+		};
+		5606B0841736BD170068EBA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5606B0851736BD170068EBA5 /* RDP_Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5606B07B1736BD170068EBA5 /* RDP_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5606B08A1736BD170068EBA5 /* Build configuration list for PBXNativeTarget "RDP_Calculator" */;
+			buildPhases = (
+				5606B0781736BD170068EBA5 /* Sources */,
+				5606B0791736BD170068EBA5 /* Frameworks */,
+				5606B07A1736BD170068EBA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDP_Calculator;
+			productName = RDP_Calculator;
+			productReference = 5606B07C1736BD170068EBA5 /* RDP_Calculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5606B0741736BD170068EBA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oguzhan Gungor";
+			};
+			buildConfigurationList = 5606B0771736BD170068EBA5 /* Build configuration list for PBXProject "RDP_Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5606B0731736BD170068EBA5;
+			productRefGroup = 5606B07D1736BD170068EBA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5606B07B1736BD170068EBA5 /* RDP_Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5606B0781736BD170068EBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5606B0831736BD170068EBA5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5606B0881736BD170068EBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5606B0891736BD170068EBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5606B08B1736BD170068EBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDP_Calculator/RDP_Calculator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5606B08C1736BD170068EBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RDP_Calculator/RDP_Calculator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5606B0771736BD170068EBA5 /* Build configuration list for PBXProject "RDP_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5606B0881736BD170068EBA5 /* Debug */,
+				5606B0891736BD170068EBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5606B08A1736BD170068EBA5 /* Build configuration list for PBXNativeTarget "RDP_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5606B08B1736BD170068EBA5 /* Debug */,
+				5606B08C1736BD170068EBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5606B0741736BD170068EBA5 /* Project object */;
+}
